@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8727" started-at="2020-10-24T11:00:35Z" finished-at="2020-10-24T11:00:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8727" started-at="2020-10-24T11:00:35Z" finished-at="2020-10-24T11:00:44Z">
+      <class name="lesson24.Asserts">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:lesson24.Asserts@6b26e945]" name="setUpDriver" is-config="true" duration-ms="5808" started-at="2020-10-24T11:00:35Z" finished-at="2020-10-24T11:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="FAIL" signature="mixedAssert()[pri:0, instance:lesson24.Asserts@6b26e945]" name="mixedAssert" duration-ms="2805" started-at="2020-10-24T11:00:41Z" finished-at="2020-10-24T11:00:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+First assert expected [true] but found [false],
+Second assert expected [true] but found [false],
+Third assert expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+First assert expected [true] but found [false],
+Second assert expected [true] but found [false],
+Third assert expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at lesson24.Asserts.mixedAssert(Asserts.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:lesson24.Asserts@6b26e945]" name="close" is-config="true" duration-ms="75" started-at="2020-10-24T11:00:44Z" finished-at="2020-10-24T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- lesson24.Asserts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
